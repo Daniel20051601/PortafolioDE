@@ -29,9 +29,11 @@ st.markdown(
 
 st.title('Ramón Emilio López', text_alignment='center')
 
-st.caption("""
-Estudiante de :red[Ingeniería en Sistemas] apasionado por el área de :red[**Ingeniería de Datos**], la automatización y el aprendizaje continuo, con experiencia en desarrollo de software y en la creación de soluciones orientadas al procesamiento e integración eficiente de datos.
-""", text_alignment= 'center')
+st.markdown("""
+            Estudiante de :red[Ingeniería en Sistemas] apasionado por el área de :red[**Ingeniería de Datos**], 
+            la automatización y el aprendizaje continuo, con experiencia en desarrollo de software y en la creación 
+            de soluciones orientadas al procesamiento e integración eficiente de datos.
+            """, text_alignment='center')
 
 st.space('large')
 
