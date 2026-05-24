@@ -5,7 +5,7 @@ PROJECTS = [
         "description" : """Aplicación desarrollada en Python capaz de recomendar películas similares mediante 
                         técnicas de filtrado y procesamiento de datos para generar recomendaciones personalizadas.""",
         "url_link" : "https://github.com/Daniel20051601/CineRecomender.git",
-        "list_technologies" : ['Python', 'PosgreSQL','PostgreSQL' ,'REST APIs', 'Pandas', 'Streamlit']
+        "list_technologies" : ['Python', 'PosgreSQL', 'REST APIs', 'Apache Airflow', 'Pandas', 'Streamlit']
     },
     {
         "url_image" : "assets/images/content/infaliblerealestate.png",
@@ -27,4 +27,4 @@ PROJECTS = [
     },
 ]
 
-TECHNOLOGIES = ["Python", "SQL", "Apache Airflow", "Pandas", "PostgreSQL", "Supabase", "Docker", "C#",'.NET', "Kotlin", "Blazor Server", "Streamlit", "REST APIs", "Git", "GitHub"]
+TECHNOLOGIES = ["Python", "SQL", "Apache Airflow", "Pandas", "PostgreSQL", "Supabase", "Docker", "Kafka", "Streamlit", "REST APIs", "Git", "GitHub""C#",'.NET', "Kotlin", "Blazor Server"]
