@@ -7,7 +7,7 @@ from data.info import ABOUTME
 
 st.set_page_config(
     page_title="Mi Portafolio",
-    page_icon="🚀",
+    page_icon=":material/work:",
     menu_items={
         'Get Help': 'https://www.linkedin.com/in/ramón-emilio-lopez-57a833211',
         'Report a bug': "https://www.linkedin.com/in/ramón-emilio-lopez-57a833211",
