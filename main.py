@@ -3,13 +3,14 @@ from utils.image_to_base64 import get_base64
 from ui.segmentos.tecnologias import segmento_tecnologias
 from ui.segmentos.proyectos import segmento_proyectos
 from ui.segmentos.contactame import segmento_contactame
+from data.info import ABOUTME
 
 st.set_page_config(
     page_title="Mi Portafolio",
     page_icon="🚀",
     menu_items={
-        'Get Help': 'https://www.tu-web.com/contacto',
-        'Report a bug': "https://github.com/Daniel20051601/issues",
+        'Get Help': 'https://www.linkedin.com/in/ramón-emilio-lopez-57a833211',
+        'Report a bug': "https://www.linkedin.com/in/ramón-emilio-lopez-57a833211",
         'About': " Este es mi portafolio profesional desarrollado con Streamlit."
     }
 )
@@ -29,11 +30,7 @@ st.markdown(
 
 st.title('Ramón Emilio López', text_alignment='center')
 
-st.markdown("""
-            Estudiante de :red[Ingeniería en Sistemas] apasionado por el área de :red[**Ingeniería de Datos**], 
-            la automatización y el aprendizaje continuo, con experiencia en desarrollo de software y en la creación 
-            de soluciones orientadas al procesamiento e integración eficiente de datos.
-            """, text_alignment='center')
+st.markdown(ABOUTME, text_alignment='center')
 
 st.space('large')
 
