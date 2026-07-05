@@ -36,4 +36,4 @@ PROJECTS = [
     },
 ]
 
-TECHNOLOGIES = ["Python", "SQL", "Databricks","Apache Airflow", "Pandas", "PostgreSQL", "Supabase", "Docker", "Kafka", "Streamlit", "REST APIs", "Git", "GitHub""C#",'.NET', "Kotlin", "Blazor Server"]
+TECHNOLOGIES = ["Python", "SQL", "Databricks","Apache Airflow", "Pandas", "PostgreSQL", "Supabase", "Docker", "Kafka", "Streamlit", "REST APIs", "Git", "GitHub", "C#",'.NET', "Kotlin", "Blazor Server"]
